@@ -7,9 +7,11 @@ tesseract_ocr.py: imported into main.py. This file does the text recognition par
 scrape.py: I tested this implementation by scraping 50 Instagram posts from 'SZ' (German news media). Replace the username in this code with another public Instagram account to scrape other content. 
 
 # Example 
-Here is what an example output looks like:
+Here is what an example output looks like (the image itself will not be displayed in the output; only the image title will be shown):
 
 Image: C8bhaqVt1tb_2.jpg
+![Example](https://github.com/manishavenkat/translate-this-post/blob/main/C8bhaqVt1tb_2.jpg?raw=true
+)
 
 Original Text: Käse und Wein, Sauerkraut und Schoko-
 lade, Bier und Miso. Was all diese Lebens-
