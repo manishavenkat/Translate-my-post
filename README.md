@@ -2,9 +2,9 @@
 Instagram currently allows post and story caption auto-translations ('see translation' button) but does not have the same feature for text on images. If you follow foreign language content on social media for educational purposes and want to cross-check your understanding of content on images, this feature would come in handy. Note that this repo is an illustration of the feature and is not integrated with Instagram in any manner. 
 
 # What's in the repo 
-main.py : clone the repo and run this file. It will ask you to upload images for text recognition and translation. It will output the image title, original text and translated text. It currently only supports German-English translation. 
-tesseract_ocr.py: imported into main.py. This file does the text recognition part using Tesseract OCR trained on German data. 
-scrape.py: I tested this implementation by scraping 50 Instagram posts from 'SZ' (German news media). Replace the username in this code with another public Instagram account to scrape other content. 
+- main.py : clone the repo and run this file. It will ask you to upload images for text recognition and translation. It will output the image title, original text and translated text. It currently only supports German-English translation. 
+- tesseract_ocr.py: imported into main.py. This file does the text recognition part using Tesseract OCR trained on German data. 
+- scrape.py: I tested this implementation by scraping 50 Instagram posts from 'SZ' (German news media) using the InstaLoader package. Replace the username in this code with another public Instagram account to scrape other content. 
 
 # Example 
 Here is what an example output looks like (the image itself will not be displayed in the output; only the image title will be shown):
